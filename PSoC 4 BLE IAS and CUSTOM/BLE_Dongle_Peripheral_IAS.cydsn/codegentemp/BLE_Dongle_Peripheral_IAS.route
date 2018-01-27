@@ -1,0 +1,18 @@
+net ClockBlock_HFCLK
+	term   ":m0s8clockblockcell.hfclk"
+	switch ":m0s8clockblockcell.hfclk==>:interrupt_12.clock"
+	term   ":interrupt_12.clock"
+end ClockBlock_HFCLK
+net Net_2294
+	term   ":m0s8tcpwmcell_1.line_compl"
+	switch ":m0s8tcpwmcell_1.line_compl==>Stub-:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v25+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v27"
+	switch "Stub-:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v25+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v27==>:ioport3:hsiom_out3.fixed_ACT_0"
+	switch ":ioport3:hsiom_out3.hsiom3_out==>:ioport3:pin3.pin_input"
+	term   ":ioport3:pin3.pin_input"
+end Net_2294
+net \BLE:Net_15\
+	term   ":p4blecell.interrupt"
+	switch ":p4blecell.interrupt==>:interrupt_idmux_12.in_0"
+	switch ":interrupt_idmux_12.interrupt_idmux_12__out==>:interrupt_12.interrupt"
+	term   ":interrupt_12.interrupt"
+end \BLE:Net_15\

@@ -1,0 +1,26 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2018-01-27T03:37:00Z")
+ (DESIGN "BLE_Dongle_Peripheral_IAS")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.1 Update 1")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "BLE_Dongle_Peripheral_IAS")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT Alert_LED\(0\).pad_out Alert_LED\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.hfclk \\BLE\:bless_isr\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.ff_div_8 \\LED_PWM\:cy_m0s8_tcpwm_1\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\LED_PWM\:cy_m0s8_tcpwm_1\\.line_compl Alert_LED\(0\).pin_input (1.000:1.000:1.000))
+    (INTERCONNECT \\BLE\:cy_m0s8_ble\\.interrupt \\BLE\:bless_isr\\.interrupt (1.000:1.000:1.000))
+    (INTERCONNECT Alert_LED\(0\).pad_out Alert_LED\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Alert_LED\(0\)_PAD Alert_LED\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT SW2\(0\)_PAD SW2\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

@@ -1,0 +1,7 @@
+C:\Users\cnpan\Documents\PSoC Creator\PSoC 4 BLE IAS and CUSTOM\PSoC_4_BLE_Central_IAS.cydsn\PSoC_4_BLE_Central_IAS.cyprj|d49b4878-1e09-412b-9212-fb20df17073c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|62d91e70-df6e-4e7f-b73e-658269f51afd
+C:\Users\cnpan\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|7b7c6744-c50a-48fe-b595-b786a1749b2a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|745f8f4f-c94c-4a2e-ab4f-59fd7a38f069
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|eb82a8ff-769c-4ede-a5f7-117b5bd2242f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|714e17c6-bc16-4257-85df-941019b72453
+C:\Users\cnpan\Documents\PSoC Creator\PSoC 4 BLE IAS and CUSTOM\BLE_Dongle_Peripheral_IAS.cydsn\BLE_Dongle_Peripheral_IAS.cyprj|cbbe2072-2770-4735-8689-245cb9df55ba
